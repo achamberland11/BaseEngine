@@ -11,5 +11,5 @@ target_link_libraries(BaseEngine
     PRIVATE
         SDL3::SDL3
         imgui
-        OpenGL::GL
+        "${CMAKE_SOURCE_DIR}/libs/opengl32.lib"
 )
